@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: aqua;
+    margin: 8px;
+}
+
+.container2 .box{
+    flex-grow: 1;
+}

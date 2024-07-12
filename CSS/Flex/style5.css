@@ -1,0 +1,23 @@
+div.container {
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+}
+
+/* style for flex items */
+div.box {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: orange;
+    margin: 8px;
+}
+
+/* styles the third flex item of the second container */
+div.container2 div.box3 {
+    flex-shrink: 2;
+}
+
+div.container2 div.box4{
+    flex-basis: 400px;
+}

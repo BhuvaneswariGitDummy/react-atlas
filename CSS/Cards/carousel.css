@@ -1,0 +1,26 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 50%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img:not(:first-child) {
+    margin-left: -100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.carousel img:first-child {
+    animation: slide 5s infinite alternate;
+}

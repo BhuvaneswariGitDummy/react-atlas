@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .container{
+            position: relative;
+        }
+        .topleft{
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .topright{
+            position:absolute;
+            top:8px;
+            right:16px;
+            font-size: 18px;
+        }
+        .bottomleft{
+            position:absolute;
+            bottom: 8px;
+            left:16px;
+            font-size: 18px;
+        }
+        .bottomright{
+            position:absolute;
+            bottom: 8px;
+            right:16px;
+            font-size: 18px;;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            font-size: 18px;
+            width:100%;
+        }
+        img{
+            width:100%;
+            height:auto;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="tree.jpeg" width="1000" heigh="300"/>
+        <div class="topleft">Top Left</div>
+        <div class="topright">Top Right</div>
+        <div class="bottomleft">Bottom Left</div>
+        <div class="bottomright">Bottom Right</div>
+        <div class="center">Centered</div>
+    </div>
+</body>
+</html>
