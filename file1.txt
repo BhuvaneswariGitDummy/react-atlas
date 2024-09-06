@@ -1,4 +1,0 @@
-Welcome to Vi editor
-Unix Operating System Learning
-Linux Commands Unix
-end of 	November am trying all theLinux commands here 
